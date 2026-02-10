@@ -1,0 +1,105 @@
+.header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #063a72;
+    background-image: url('img/unreal.png'); /* chemin vers ton image */
+    background-size: cover; /* pour que l'image prenne tout l'espace */
+    background-position: center; /* pour bien centrer l'image */
+    background-repeat: no-repeat; /* pour éviter que l'image se répète */
+}
+.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    color: rgb(179, 179, 4);
+    font-size: 1.7rem;
+}
+.a_head {
+    color: rgb(179, 179, 4);
+    text-decoration: none;
+}
+
+.mes-jeux {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #0a1e3a;
+    /* Bleu foncé comme sur ton exemple */
+    color: #000000;
+    /* Jaune pour le titre */
+}
+.mes-pres {
+    padding: 80px 20px;
+    background-color: #0a1e3a;
+    /* Bleu foncé comme sur ton exemple */
+    color: #000000;
+    /* Jaune pour le titre */
+}
+.mes-comp {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #0a1e3a;
+    /* Bleu foncé comme sur ton exemple */
+    color: #000000;
+    /* Jaune pour le titre */
+}
+
+
+
+/* Grille des jeux */
+.games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/* Bouton */
+.btn-blue {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #ffc107;
+}
+.mes-pres h3{
+    color: white;
+}
+body{
+    background-color: #0a1e3a;
+}
