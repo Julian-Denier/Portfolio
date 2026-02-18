@@ -2,10 +2,10 @@
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #063a72;
-    background-image: url('img/unreal.png'); /* chemin vers ton image */
-    background-size: cover; /* pour que l'image prenne tout l'espace */
-    background-position: center; /* pour bien centrer l'image */
-    background-repeat: no-repeat; /* pour éviter que l'image se répète */
+    background-image: url('img/unreal.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 .container {
     height: 200px;
@@ -30,29 +30,22 @@
     text-align: center;
     padding: 80px 20px;
     background-color: #0a1e3a;
-    /* Bleu foncé comme sur ton exemple */
     color: #000000;
-    /* Jaune pour le titre */
 }
 .mes-pres {
     padding: 80px 20px;
     background-color: #0a1e3a;
-    /* Bleu foncé comme sur ton exemple */
     color: #000000;
-    /* Jaune pour le titre */
 }
 .mes-comp {
     text-align: center;
     padding: 80px 20px;
     background-color: #0a1e3a;
-    /* Bleu foncé comme sur ton exemple */
     color: #000000;
-    /* Jaune pour le titre */
 }
 
 
 
-/* Grille des jeux */
 .games-grid {
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +69,6 @@
     
 }
 
-/* Bouton */
 .btn-blue {
     display: inline-block;
     margin-top: 15px;
