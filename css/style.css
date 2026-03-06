@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.li{
+li{
     display: inline-block;
     text-decoration: none;
     font-size: 1.7rem;
@@ -97,4 +97,12 @@ iframe{
     border-radius:0%;
     float: right;
     width: 30%
+}
+/* @media print {
+   body{
+    display: none;
+   } 
+} */
+@media print {
+    
 }
